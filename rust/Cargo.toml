@@ -1,0 +1,14 @@
+[package]
+name = "arrow_ring_buffer"
+version = "0.1.0"
+authors = ["rgomes <rgomes.info@gmail.com>"]
+edition = "2018"
+
+[features]
+default = [ "compat" ]
+
+# Compatibility on mixed language environments where array lengths are limited to 2³¹-1.
+# See: https://github.com/apache/arrow/blob/master/docs/source/format/Columnar.rst
+compat = []
+
+[dependencies]

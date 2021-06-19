@@ -1,0 +1,17 @@
+syntax: glob
+
+**/*~
+**/\.classpath
+**/\.project
+**/\.settings
+**/\.idea
+**/\.idea_modules
+**/\.iml
+**/\.lib
+**/\.classpath_nb
+**/\.ensime
+**/\.ensime_lucene
+**/\.metals
+**/\.bloop
+**/\.bsp
+**/target/
